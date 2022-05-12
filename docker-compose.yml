@@ -1,0 +1,12 @@
+version: '3'
+services:
+  b4_research:
+    restart: always
+    build:
+      dockerfile: ./Dockerfile
+    image: b4_research
+    container_name: b4_research
+    working_dir: '/root/app'
+    tty: true
+    volumes:
+      - ./app:/root/app
