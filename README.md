@@ -1,7 +1,7 @@
 # B4 研究用
 
-- docker
+## docker立ち上げ
 
-`docker compose up -d --build`
+`make up`
 
-`docker compose exec b4_research bash`
+`make exec`
